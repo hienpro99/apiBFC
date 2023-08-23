@@ -4,7 +4,7 @@ const expressHandlebars = require('express-handlebars');
 const bodyParser = require('body-parser');
 const db = require('./db');
 const path = require('path');
-
+require('dotenv').config(); // Load biến môi trường từ tệp .env
 const apiRoutes = require('./routes/api');
 
 const app = express();

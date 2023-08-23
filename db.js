@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-require('dotenv').config(); // Load biến môi trường từ tệp .env
+
 
 const uri = process.env.MONGODB_URI;
 
